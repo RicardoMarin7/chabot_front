@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --color-accent-one: #205169d9;
+  --color-accent-two: #cb2a42;
+  --color-theme-color-950: #0F2532;
+  --color-theme-color-900: #163549;
+  --color-theme-color-850: #1B4357;
+  --color-theme-color-800: #205169;
+  --color-theme-color-750: #27617D;
+  --color-theme-color-700: #2E7191;
+  --color-theme-color-650: #3681A5;
+  --color-theme-color-600: #3E91BA;
+  --color-theme-color-550: #47A1CE;
+  --color-theme-color-500: #50B2E2;
+  --color-theme-color-450: #72C0E8;
+  --color-theme-color-400: #8ECDEA;
+  --color-theme-color-350: #A7D9ED;
+  --color-theme-color-300: #C0E6F0;
+  --color-theme-color-250: #D6EFF5;
+  --color-theme-color-200: #E5F5F8;
+  --color-theme-color-150: #F0FAFB;
+  --color-theme-color-100: #F8FDFE;
+  --color-theme-color-75:  #FBFEFF;
+  --color-theme-color-50:  #FDFFFF;
+  --color-secondary-color-950: #4E1019;
+  --color-secondary-color-900: #6B161F;
+  --color-secondary-color-850: #871C27;
+  --color-secondary-color-800: #A42230;
+  --color-secondary-color-750: #CB2A42;
+  --color-secondary-color-700: #D03F56;
+  --color-secondary-color-650: #D6546A;
+  --color-secondary-color-600: #DC6A7E;
+  --color-secondary-color-550: #E18092;
+  --color-secondary-color-500: #E696A6;
+  --color-secondary-color-450: #ECAAB8;
+  --color-secondary-color-400: #F1BDC8;
+  --color-secondary-color-350: #F5CFD7;
+  --color-secondary-color-300: #F9E0E4;
+  --color-secondary-color-250: #FCEBEE;
+  --color-secondary-color-200: #FEEFF1;
+  --color-secondary-color-150: #FFF4F5;
+  --color-secondary-color-100: #FFF8F9;
+  --color-secondary-color-75:  #FFFBFB;
+  --color-secondary-color-50:  #FFFEFE;
+}
+
+
+html{
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg, var(--color-secondary-color-200), var(--color-theme-color-200));
+}
