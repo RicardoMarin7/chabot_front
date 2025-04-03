@@ -47,7 +47,7 @@ const Chat = () => {
   }, [messages]);
 
   return (
-    <div className="lg:w-[80vw] w-[100] flex flex-col h-[90vh] bg-theme-gradient  p-4">
+    <div className="lg:w-[80vw] w-[100vw] flex flex-col h-[90vh] bg-theme-gradient  p-4">
       <div className="flex-1 overflow-auto space-y-2">
         {messages.map((msg) => (
           <ChatMessage key={msg.id} {...msg} />
