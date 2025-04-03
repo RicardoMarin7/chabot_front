@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = `${import.meta.env.VITE_APP_VITE_APP_CHATBOT_BACKEND_URL}/chat`;
+const API_URL = `${import.meta.env.VITE_APP_CHATBOT_BACKEND_URL}/chat`;
 
 
 export const fetchChatResponse = async (pregunta: string) => {
